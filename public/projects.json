@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Agropartnerships",
+      "short_desc":"Investment Platform",
+      "url": "https://agropartnerships.co",
+      "image": "https://res.cloudinary.com/oladetounjed/image/upload/v1630461681/portfolio/Agropartnerships_qxypne.png"
+  
+    },
+    {
+        "id": 2,
+        "name": "Shiip",
+        "short_desc":"Delivery Platform",
+        "url": "https://goshiip.com",
+        "image": "https://res.cloudinary.com/oladetounjed/image/upload/v1630461678/portfolio/shiip_anxcjp.png"
+    
+      },
+      {
+        "id": 3,
+        "name": "Ogaise",
+        "short_desc":"Job Hunting Platform",
+        "url": "https://www.figma.com/file/8u87HvPCnhXi0TthBL7G2m/Oga-Ise-Design?node-id=0%3A1",
+        "image": "https://res.cloudinary.com/oladetounjed/image/upload/v1630461677/portfolio/Ogaise_fcxond.png"
+    
+      },
+      {
+        "id": 4,
+        "name": "Listbuy",
+        "short_desc":"Ecommerce Store Builder",
+        "url": "https://listbuy.shop",
+        "image": "https://res.cloudinary.com/oladetounjed/image/upload/v1630461681/portfolio/listbuy_lgdxjx.png"
+    
+      },
+      {
+        "id": 5,
+        "name": "Kiakiaprints",
+        "short_desc":"Online Printing Platform",
+        "url": "https://kiakiaprint.com",
+        "image": "https://res.cloudinary.com/oladetounjed/image/upload/v1630461683/portfolio/kiakia_ymvove.png"
+    
+      }
+    
+  ]
