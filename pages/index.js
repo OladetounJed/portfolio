@@ -21,7 +21,7 @@ export default function Home() {
       smooth: true,
       reloadOnContextChange: true,
       inertia: 0.2,
-      multiplier: 1,
+      multiplier: 3,
       lerp: 0.1,
       touchMultiplier: 3,
       reloadOnContextChange: true,
@@ -131,7 +131,7 @@ export default function Home() {
         </p>
         <p className="font-bold text-sm leading-10">
           {" "}
-          Mafo, give me a call <a href="tel:+2349026554054">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
+          Mafo, give me a call <a href="tel:+2349138661732">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
         </p>
         <SocialLinks />
       </div>
