@@ -132,7 +132,7 @@ export default function Home() {
         </p>
         <p className="font-bold text-sm leading-10">
           {" "}
-          Mafo, give me a call 🇳🇬 or send me an email 📧.
+          Mafo, give me a call <a href="tel:+2349026554054">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
         </p>
         <SocialLinks />
       </div>
