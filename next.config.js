@@ -3,7 +3,4 @@ module.exports = {
   images: {
     domains: ['res.cloudinary.com'],
   },
-  node: {
-    fs: 'empty',
-  }
 }

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import styled, { keyframes } from "styled-components";
+import 'twin.macro'
 
 const transition = {
   duration: 1.4,
@@ -33,20 +34,20 @@ export default function preloader() {
       data-scroll-sticky
       data-scroll-target="#menu-target"
       animate={{ top: "-100vh", transition: { ...transition, delay: 9 } }}
-      className="w-screen h-screen bg-blue fixed top-0 left-0 z-50 grid place-content-center"
+      tw="w-screen h-screen bg-blue fixed top-0 left-0 right-0 bottom-0 z-50 grid place-content-center"
     >
-      <div className="flex items-center justify-center flex-col">
+      <div tw="flex items-center justify-center flex-col">
         <motion.div
           initial={{ x: -10, opacity: 0 }}
           animate={{ x: 0, opacity: 1, transition: { ...transition } }}
-          className="mb-4 text-center"
+          tw="mb-4 text-center"
         >
-          <p className="font-bold text-xl">I </p>
+          <p tw="font-bold text-xl">I </p>
         </motion.div>
         <motion.div
           initial={{ x: 10, opacity: 0 }}
           animate={{ x: 0, opacity: 1, transition: { ...transition } }}
-          className="w-max text-center h-16 overflow-hidden relative"
+          tw="w-max text-center h-16 overflow-hidden relative"
         >
           <PreloaderText>am Oladetoun</PreloaderText>
           <PreloaderText>temi || tayo</PreloaderText>

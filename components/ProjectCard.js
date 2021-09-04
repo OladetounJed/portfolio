@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import "twin.macro"
 
 const ImageContainer = styled.div`
   &::after {
@@ -18,26 +19,26 @@ const ImageContainer = styled.div`
 
 export default function projectCard(props) {
   return (
-    <div className="mb-16 w-full sm:w-154 sm:mb-32">
-      <div className="rounded-t-2xl rounded-b-3xl bg-blue opacity-60 border border-deepBlue hover:opacity-100 transition-all duration-700">
-        <ImageContainer className="relative h-80 rounded-t-2xl rounded-b-3xl">
+    <div tw="mb-16 w-full sm:w-154 sm:mb-32">
+      <div tw="rounded-t-2xl rounded-b-3xl bg-blue opacity-60 border border-deepBlue hover:opacity-100 transition-all duration-700">
+        <ImageContainer tw="relative h-80 rounded-t-2xl rounded-b-3xl">
           <Image
-            className="h-96 object-cover relative rounded-t-2xl rounded-b-3xl w-full h-full"
+            tw="h-96 object-cover relative rounded-t-2xl rounded-b-3xl w-full h-full"
             src={props.project.image}
             alt={props.project.name}
             layout="fill"
           />
         </ImageContainer>
-        <div className="px-4 py-8">
-          <h3 className="font-bold text-2xl">{props.project.name}</h3>
-          <p className="font-thin text-xs my-2">{props.project.short_desc}</p>
+        <div tw="px-4 py-8">
+          <h3 tw="font-bold text-2xl">{props.project.name}</h3>
+          <p tw="font-thin text-xs my-2">{props.project.short_desc}</p>
           <a
-            className="uppercase text-trueGray font-bold text-sm"
+            tw="uppercase text-trueGray font-bold text-sm"
             target="_blank"
             rel="noreferrer"
             href={props.project.url}
           >
-            <span className="underline">Visit the</span> Website
+            <span tw="underline">Visit the</span> Website
           </a>
         </div>
       </div>

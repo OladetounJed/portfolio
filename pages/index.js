@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
+import "twin.macro"
 import { AppHeader, ProjectCard, Preloader, SocialLinks } from "../components";
 import Projects from "../public/projects.json";
 
@@ -21,9 +22,9 @@ export default function Home() {
       smooth: true,
       reloadOnContextChange: true,
       inertia: 0.2,
-      multiplier: 3,
+      multiplier: 2,
       lerp: 0.1,
-      touchMultiplier: 3,
+      touchMultiplier: 2,
       reloadOnContextChange: true,
       smartphone: {
         smooth: true,
@@ -36,7 +37,7 @@ export default function Home() {
 
   return (
     <div
-      className="font-primary bg-blue text-coolGray"
+      tw="font-primary bg-blue text-coolGray"
       id="menu-target"
       ref={ref}
     >
@@ -73,8 +74,8 @@ export default function Home() {
       </Head>
       <Preloader />
       <AppHeader />
-      <div className="pt-24 px-4 md:px-8 lg:px-16">
-        <div className="flex justify-center items-center">
+      <div tw="pt-24 px-4 md:px-8 lg:px-16">
+        <div tw="flex justify-center items-center">
           <Image
             src="/svg/me.svg"
             alt="Oladtoun Temi. Memoji"
@@ -83,11 +84,11 @@ export default function Home() {
           />
         </div>
 
-        <div className="pt-6">
-          <h1 className="font-black text-6xl text-white leading-snug text-center md:text-9xl lg:leading-snug">
+        <div tw="pt-6">
+          <h1 tw="font-black text-6xl text-white leading-snug text-center md:text-9xl lg:leading-snug">
             I'm Temi.
           </h1>
-          <p className="text-center font-thin text-lg">
+          <p tw="text-center font-thin text-lg">
             I build beautiful stuffs.
           </p>
           <div>
@@ -95,11 +96,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-16 px-4 md:px-8 lg:px-16">
-        <h1 className="font-black text-lg underline mb-4 md:text-4xl">
+      <div tw="pt-16 px-4 md:px-8 lg:px-16">
+        <h1 tw="font-black text-lg underline mb-4 md:text-4xl">
           Quick Intro🤞🏽?
         </h1>
-        <p className="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
+        <p tw="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
           I am Oladetoun Temitayo, an engineer with a keen eye for user-friendly
           and quality web platforms, My strength lies within Frontend
           Engineering and I craft high-performance web products using my stack
@@ -107,31 +108,31 @@ export default function Home() {
           technologies to enhance content and functionality.
         </p>
       </div>
-      <div className="pt-24 px-4 md:px-8 lg:px-16">
-        <h1 className="font-black text-lg underline mb-4 md:text-4xl">
+      <div tw="pt-24 px-4 md:px-8 lg:px-16">
+        <h1 tw="font-black text-lg underline mb-4 md:text-4xl">
           What have I cooked so far🤙🏽
         </h1>
-        <p className="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
+        <p tw="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
           I try my best to make the best “meals” and here are some amazing ones
         </p>
-        <div className="pt-32 flex items-center justify-center flex-col">
+        <div tw="pt-32 flex items-center justify-center flex-col">
           {Projects.map((project) => (
             <ProjectCard key={project.id.toString()} project={project} />
           ))}
         </div>
       </div>
-      <div className="pt-8 px-4 md:px-8 lg:px-16">
-        <h1 className="font-black text-lg underline mb-4 md:text-4xl">
+      <div tw="pt-8 px-4 md:px-8 lg:px-16">
+        <h1 tw="font-black text-lg underline mb-4 md:text-4xl">
           Friends now👋🏽?
         </h1>
-        <p className="font-thin text-sm leading-6">
+        <p tw="font-thin text-sm leading-6">
           Got a question, proposal or project or want to work together on
           something? Feel free to reach out. I’m currently looking fresh
           opportunities to do what I love and also build amazing stuffs.
         </p>
-        <p className="font-bold text-sm leading-10">
-          {" "}
-          Mafo, give me a call <a href="tel:+2349138661732">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
+        <p tw="font-bold text-sm leading-10">
+         
+         Go ahead, give me a call <a href="tel:+2349138661732">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
         </p>
         <SocialLinks />
       </div>

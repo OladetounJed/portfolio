@@ -1,11 +1,13 @@
+import "twin.macro"
+
 export default function SocialLinks() {
   return (
-    <div className="flex justify-center pb-8 mt-8 mx-4 font-bold sm:justify-end">
+    <div tw="flex justify-center pb-8 mt-12 mx-4 font-bold sm:justify-end">
     <a
       href="https://github.com/oladetounjed"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       👾 GH
     </a>
@@ -13,7 +15,7 @@ export default function SocialLinks() {
       href="https://twitter.com/oladetounjed"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       🐦 TW
     </a>
@@ -21,7 +23,7 @@ export default function SocialLinks() {
       href="https://www.linkedin.com/in/oladetounjed"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       💼 LD
     </a>
@@ -29,7 +31,7 @@ export default function SocialLinks() {
       href="https://www.instagram.com/oladetounjed"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       📸 IN
     </a>
@@ -37,7 +39,7 @@ export default function SocialLinks() {
       href="https://www.instagram.com/oladetounjed"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       ✍ HN
     </a>
@@ -45,7 +47,7 @@ export default function SocialLinks() {
       href="https://docs.google.com/document/d/1SLaFFUtKeXYNzoP4gOfglkYJxZiaH4_hLJ1VKiO23i4/edit?usp=sharing"
       rel="noreferrer"
       target="_blank"
-      className="text-center px-1"
+      tw="text-center px-1"
     >
       📝 CV
     </a>
