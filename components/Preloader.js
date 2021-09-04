@@ -25,7 +25,6 @@ const PreloaderText = styled.p`
   animation-delay: 3s;
 `;
 
-console.log(PreloaderText)
 
 export default function preloader() {
   return (

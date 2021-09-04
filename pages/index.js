@@ -8,7 +8,6 @@ export default function Home() {
   const ref = React.useRef(null);
   let lscroll;
   React.useEffect(() => {
-    console.log(ref.current);
 
     const locomotiveScroll =
       typeof window !== `undefined`
