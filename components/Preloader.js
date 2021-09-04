@@ -32,7 +32,7 @@ export default function preloader() {
       data-scroll
       data-scroll-sticky
       data-scroll-target="#menu-target"
-      animate={{ top: "100vh", transition: { ...transition, delay: 9 } }}
+      animate={{ top: "-100vh", transition: { ...transition, delay: 9 } }}
       className="w-screen h-screen bg-blue fixed top-0 left-0 z-50 grid place-content-center"
     >
       <div className="flex items-center justify-center flex-col">
