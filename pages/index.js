@@ -89,7 +89,7 @@ export default function Home() {
             I'm Temi.
           </h1>
           <p tw="text-center font-thin text-lg">
-            I build beautiful stuffs.
+            and I just want to build stuff.
           </p>
           <div>
             <SocialLinks />
@@ -102,8 +102,8 @@ export default function Home() {
         </h1>
         <p tw="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
           I am Oladetoun Temitayo, an engineer with a keen eye for user-friendly
-          and quality web platforms, My strength lies within Frontend
-          Engineering and I craft high-performance web products using my stack
+          and quality web and mobile platforms, My strength lies within Frontend
+          Engineering and I craft high-performance software products using my stack
           and I am dedicated to learning, evaluating, and applying new
           technologies to enhance content and functionality.
         </p>
@@ -113,7 +113,7 @@ export default function Home() {
           What have I cooked so far🤙🏽
         </h1>
         <p tw="font-thin text-sm leading-6 lg:text-lg lg:leading-10">
-          I try my best to make the best “meals” and here are some amazing ones
+          I build scalable software products and here are some I find interesting
         </p>
         <div tw="pt-32 flex items-center justify-center flex-col">
           {Projects.map((project) => (
@@ -131,8 +131,8 @@ export default function Home() {
           opportunities to do what I love and also build amazing stuffs.
         </p>
         <p tw="font-bold text-sm leading-10">
-         
-         Go ahead, give me a call <a href="tel:+2349138661732">🇳🇬</a> or send me an email <a href = "mailto:oladetountemitayo@gmail.com">📧</a>.
+
+          Go ahead, give me a call <a href="tel:+37253648794">🇪🇪</a> or send me an email <a href="mailto:oladetountemitayo@gmail.com">📧</a>.
         </p>
         <SocialLinks />
       </div>
