@@ -33,7 +33,7 @@ export default function preloader() {
       data-scroll
       data-scroll-sticky
       data-scroll-target="#menu-target"
-      animate={{ top: "-100vh", transition: { ...transition, delay: 9 } }}
+      animate={{ top: "-100vh", transition: { ...transition, delay: 3.5 } }}
       tw="w-screen h-screen bg-blue fixed top-0 left-0 right-0 bottom-0 z-50 grid place-content-center"
     >
       <div tw="flex items-center justify-center flex-col">
@@ -49,13 +49,7 @@ export default function preloader() {
           animate={{ x: 0, opacity: 1, transition: { ...transition } }}
           tw="w-max text-center h-16 overflow-hidden relative"
         >
-          <PreloaderText>am Oladetoun</PreloaderText>
-          <PreloaderText>temi || tayo</PreloaderText>
-          <PreloaderText>am a frontend Engineer</PreloaderText>
-          <PreloaderText>am a dog lover🐶</PreloaderText>
-          <PreloaderText>am God's fav💃</PreloaderText>
-          <PreloaderText>❤️ JavaScript</PreloaderText>
-          <PreloaderText>❤️ writing 0's and 1's</PreloaderText>
+          <PreloaderText>just want to build stuff</PreloaderText>
         </motion.div>
       </div>
     </motion.div>
